@@ -17,7 +17,7 @@ Or
 Or
 
 ```html
-<script src='memoize.js'></script>
+<script src='https://rawgit.com/SunHuawei/memoize.js/master/index.js'></script>
 ```
 
 # Usage
@@ -36,7 +36,7 @@ fn(2, 3); // calculate
 
 # You may not need [reselect](https://github.com/reactjs/reselect)
 
-## `containers/VisibleTodoList.js`
+#### `containers/VisibleTodoList.js`
 
 ```javascript
 import { connect } from 'react-redux'
@@ -82,7 +82,7 @@ In the above example, `mapStateToProps` calls `getVisibleTodos` to calculate `to
 
 Just wrap `getVisibleTodos` with `memoize()`, you can get the advantage. Simple and Clear.
 
-## `containers/VisibleTodoList.js`
+#### `containers/VisibleTodoList.js`
 
 ```javascript
 import memoize from 'memoize'
