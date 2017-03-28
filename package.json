@@ -1,0 +1,25 @@
+{
+  "name": "memoize.js",
+  "version": "0.0.2",
+  "description": "Enhance the functions with **memoization**",
+  "main": "memoize.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SunHuawei/memoize.js.git"
+  },
+  "keywords": [
+    "memoize",
+    "memoization",
+    "cache",
+    "reselect"
+  ],
+  "author": "SunHuawei <stonesun@aliyun.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SunHuawei/memoize.js/issues"
+  },
+  "homepage": "https://github.com/SunHuawei/memoize.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
